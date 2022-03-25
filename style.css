@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -31,4 +32,20 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.resume-button{
+    text-decoration: none;
+    color: yellow;
+    background-image: linear-gradient(tomato,red);
+    padding: 5px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+p{
+    text-align: justify;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
